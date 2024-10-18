@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head id="head">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Ouderavond</title>
+     <h1> OUDERAVOND </h1> 
+      <img src="./images/tcr.png" alt="TCR logo" id="tcrlogo">
+  
+     
+  </head>
+  <body>
+ 
+    <nav>
+      <ul>
+        <li><a href="index.html">Introductie</a></li>
+        <li><a href="Lgids.html">Locatiegids</a></li>
+        <li><a href="ouderavond.html">Ouderavond</a></li>
+        <li><a href="exameplan.html">Examenplan</a></li>
+        <li>
+            <a href="software.html">Software&#11206;</a>
+            <ul class="dropdown">
+                <li><a href="Eduarte.html">Eduarte</a></li>
+                <li><a href="canvas.html">Canvas</a></li>
+            </ul>
+        </li>
+        <li><a href="ibegeleiding.html">Interne begeleiding</a></li>
+        <li><a href="bsa.html">BSA & studentenstatuut</a></li>
+    </ul>
+    </nav>
+
+  <main class="scroll-container">
+    <div class="main-background"> </div>
+    <section class="ouderavond">
+      <article>
+        <h2>Wat is het doel van een ouderavond</h2>
+   <p>
+     Deze avond is speciaal georganiseerd om u, als ouders/verzorgers, uitgebreid te informeren over zowel de inhoud als de organisatie van de opleiding. Op deze avond worden verschillende thema's besproken zoals loopbaan, stages en de voortgang van studenten besproken en
+     eventuele problemen worden besproken, zoals achterstanden en gedrag of bepaalde kwesties binnen school. De betrokkenheid is van ouders is belangrijk vaak een invloedrijke rol spelen in de schoolcarrière van hun kinderen.
+      Vooral in het mbo is dit cruciaal, omdat veel ouders vaak niet volledig op de hoogte zijn van de complexiteit van het onderwijssysteem en de arbeidsmarkt. 
+
+  </p>
+  </article>
+  </section>
+
+
+
+  <section >
+    <form class="formoa">
+      <label for="fname">Voornaam:</label>
+      <input type="text" name="fname" id="fname" pattern="[A-Za-z\s]+" title="Geen cijfers toegestaan" placeholder="Voer uw voornaam in" required>
+    
+      <label for="lname">Achternaam:</label>
+      <input type="text" name="lname" id="lname" pattern="[A-Za-z\s]+" title="Geen cijfers toegestaan" placeholder="Voer uw achternaam in" required>
+    
+      <label for="adres">Straat met huisnummer:</label>
+      <input type="text" name="adres" id="adres" placeholder="Voer hier uw adres in" required>
+    
+      <label for="stad">Stad:</label>
+      <input type="text" name="stad" id="stad" placeholder="Stad" required>
+    
+      <label for="land">Land:</label>
+      <input type="text" name="land" id="land" placeholder="Land" required>
+    
+      <label for="BSN">BSN-nummer:</label>
+      <input type="text" name="BSN" id="BSN" placeholder="BSN" pattern="\d{1,9}" title="Maximaal 9 cijfers" maxlength="9" required>
+    
+      <label for="vertrekdatum">Datum van vertrek:</label>
+      <input type="date" id="vertrekdatum" min="2024-09-20" required>
+    
+      <label for="terugkomdatum">Datum van terugkomst:</label>
+      <input type="date" id="terugkomdatum" required>
+    
+      <label for="personenaantal">Aantal reisgenoten (max 4):</label>
+      <input type="number" id="personenaantal" min="1" max="4" required>
+    
+      <label for="email">E-mail:</label>
+      <input type="email" name="email" id="email" placeholder="Uw e-mailadres" required>
+    
+      <label for="wachtwoord">Wachtwoord:</label>
+      <input type="password" id="wachtwoord" placeholder="Verzin een wachtwoord" required>
+    
+      <input type="submit" value="Boek nu">
+    </form>
+    
+
+</section>
+
+  <section class="video-container1">
+      <iframe 
+          src="https://www.youtube.com/embed/-FAD-OiXqfA" title="YouTube video player" allowfullscreen>
+      </iframe>
+</section>
+
+
+  
+  </main>
+    
+</body>
+</html>
